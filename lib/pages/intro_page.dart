@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_travel_ui/components/button.dart';
+import 'package:flutter_sushi_restaurant/components/button.dart';
+import 'package:flutter_sushi_restaurant/theme/colors.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class IntroPage extends StatelessWidget {
@@ -8,7 +9,7 @@ class IntroPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromARGB(255, 138, 60, 55),
+      backgroundColor: primaryColor,
       body: Padding(
         padding: const EdgeInsets.all(25.0),
         child: Column(

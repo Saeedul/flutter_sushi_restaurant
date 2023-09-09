@@ -1,4 +1,4 @@
-# flutter_travel_ui
+# flutter_sushi_restaurant
 
 A new Flutter project.
 
